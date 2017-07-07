@@ -26,15 +26,6 @@ namespace Service.UnitTest
             this.service = new FileService(this.testFolderPath);
         }
 
-        [TestCleanup]
-        public void TestCleanup()
-        {
-            if (Directory.Exists(this.testFolderPath) == true)
-            {
-                Directory.Delete(this.testFolderPath, true);
-            }
-        }
-
         [TestMethod]
         public void GetFilesTest_預期取得檔案路徑()
         {
