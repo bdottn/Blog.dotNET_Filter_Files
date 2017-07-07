@@ -35,6 +35,7 @@
   <ItemGroup>
     <Compile Include="FileService.cs" />
     <Compile Include="FileService_FilterByExtension.cs" />
+    <Compile Include="FileService_FilterByFileAttribute.cs" />
     <Compile Include="FileService_FilterByRegularExpression.cs" />
     <Compile Include="FileService_FilterBySearchPattern.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
