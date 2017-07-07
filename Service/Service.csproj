@@ -34,6 +34,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="FileService.cs" />
+    <Compile Include="FileService_FilterByExtension.cs" />
     <Compile Include="FileService_FilterBySearchPattern.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Protocol\IFileService.cs" />
